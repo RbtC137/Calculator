@@ -15,11 +15,21 @@ body {
 }
 
 .container .display-area {
-    background-color: grey;
+    background-color: skyblue;
     height: 15vh;
     width: 90%;
     margin-top: 1.5vh;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: grey solid 5px;
 }
+
+.formula ,.result {
+    height: 7vh;
+    line-height: 7vh;
+    padding-left: 3vh;
+}
+
 
 .container .panel-area {
     background-color: grey;
@@ -30,6 +40,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    border-radius: 10px;
 }
 
 .container .panel-area .panel-buttons {
@@ -39,4 +50,10 @@ body {
     margin: 0.5vh;
     cursor: pointer;
     font-size: 3rem;
+    border-radius: 30%;
+}
+
+.container .panel-area .equal-button {
+    width: 30vh;
+    border-radius: 30px;
 }
